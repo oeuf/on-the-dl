@@ -1,5 +1,3 @@
-# These are all the modules we'll be using later. Make sure you can import them
-# before proceeding further.
 import cPickle
 import sys
 
@@ -43,7 +41,7 @@ def load_data(subset=9999999):
 
 
 def initialize_weight(shape, stddev=0.1):
-    """Initializes bias variables for a layer"""
+    """Initializes weights variables for a layer"""
     return tf.Variable(tf.truncated_normal(shape, stddev=stddev))
 
 

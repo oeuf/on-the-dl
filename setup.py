@@ -6,8 +6,7 @@ setup(
     author='Nick Gustafson',
     author_email='njgustafson@gmail.com',
     url='https://github.com/oeuf/on-the-dl',
-    description='Python Client for Accessing the Udacity API',
-    long_description=open('README.md').read(),
+    description='scratchpad code for exploring neural networks',
     install_requires=[
         'numpy',
         'tensorflow',
